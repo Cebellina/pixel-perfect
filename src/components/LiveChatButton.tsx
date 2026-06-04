@@ -1,9 +1,11 @@
 function LiveChatButton() {
   return (
-    <button className="fixed right-8 bottom-6 w-[76px] h-[76px] rounded-full bg-[#91896a] text-white text-sm leading-tight flex items-center justify-center shadow-lg">
-      LIVE
-      <br />
-      CHAT
+    <button className="fixed bottom-6 right-6 z-50 flex h-[72px] w-[72px] items-center justify-center rounded-full bg-[#8f8768] text-[12px] font-medium leading-tight text-white shadow-md hover:scale-105">
+      <span className="text-center">
+        LIVE
+        <br />
+        CHAT
+      </span>
     </button>
   );
 }

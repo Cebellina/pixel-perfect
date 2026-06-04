@@ -1,26 +1,30 @@
 import SocialIcons from "./SocialIcons";
 
 function Header() {
-  const links = ["HOME", "EXPERIENCE", "DESTINATIONS", "ABOUT", "CLIENTS", "CONNECT"];
+  const links = [
+    "HOME",
+    "EXPERIENCE",
+    "DESTINATIONS",
+    "ABOUT",
+    "CLIENTS",
+    "CONNECT",
+  ];
 
   return (
-    <header className="h-[145px] bg-[#f4f3f0] flex items-center justify-between px-[12%]">
+    <header className="h-[115px] bg-[#f4f3ef] flex items-center justify-between px-[80px] text-[#191919]">
       <div className="text-center">
-        <h1 className="font-serif text-[32px] tracking-[6px] leading-none">
+        <h1 className="font-['Cormorant_Garamond'] text-[36px] font-light tracking-[1px] leading-none">
           CLASSIC TRAVEL
         </h1>
-        <p className="text-[13px] tracking-[8px] mt-2">
+
+        <p className="mt-1 text-[10px] tracking-[6px]">
           CONNECTION
         </p>
       </div>
 
-      <nav className="flex items-center gap-8 text-[15px] tracking-wide">
+      <nav className="flex items-center gap-7 text-[12px] font-normal tracking-wide">
         {links.map((link) => (
-          <a
-            key={link}
-            href="#"
-            className="hover:text-[#8c8467] transition-colors"
-          >
+          <a key={link} href="#" className="hover:text-[#8f8768]">
             {link}
           </a>
         ))}
