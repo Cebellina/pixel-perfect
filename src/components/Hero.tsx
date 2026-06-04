@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section className="relative h-[calc(100vh-145px)] overflow-hidden">
       <img
-        src="/hero-travel.png"
+        src={`${import.meta.env.BASE_URL}hero-travel.png`}
         alt="Luxury beach resort"
         className="w-full h-full object-cover"
       />
