@@ -28,8 +28,19 @@ Projektet innehåller flera komponenter utöver `App.tsx`:
 - `SocialIcons.tsx`
 - `LiveChatButton.tsx`
 
+## Styling
+
+Projektet är stylat med Tailwind CSS enligt uppgiftens krav.
+
 ## Starta projektet
 
 ```bash
 npm install
 npm run dev
+```
+
+## Bygga projektet
+
+```bash
+npm run build
+```
